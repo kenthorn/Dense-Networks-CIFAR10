@@ -1,0 +1,3 @@
+ChatGPT said:
+
+This project explores how fully connected (Dense) neural networks perform on the CIFAR-10 image classification task without using convolutional layers. It examines whether Dense and Dropout layers can effectively learn image patterns from flattened inputs, focusing on overfitting control through regularization methods such as Dropout, L1/L2 penalties, and batch normalization. Built with TensorFlow and Keras, the models were tuned for depth, neuron count, and learning rate. While CNNs typically outperform Dense networks, the results show that fully connected models can still achieve reasonable accuracy and serve as lightweight alternatives in resource-constrained environments.
